@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 require("dotenv").config();
 //const dbURI = "mongodb://localhost:27017"
-const dbURI = "mongodb+srv://dawnestateinfo_db_user:YccSqFcTzaRkfdZU@cluster0.haybxbq.mongodb.net//?appName=cluster0";
-// const dbURI = "mongodb+srv://mooriagroup_db_user:YccSqFcTzaRkfdZU@cluster0.gtz8buq.mongodb.net/?appName=cluster0";
+//const dbURI = "mongodb+srv://dawnestateinfo_db_user:YccSqFcTzaRkfdZU@cluster0.haybxbq.mongodb.net//?appName=cluster0";
+const dbURI = "mongodb+srv://dawnestateinfo_db_user:YccSqFcTzaRkfdZU@cluster0.haybxbq.mongodb.net/test?retryWrites=true&w=majority&appName=cluster0";
+
 const connectDB = async () => {
   try {
     await mongoose.connect(dbURI);
