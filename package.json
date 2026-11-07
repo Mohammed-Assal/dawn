@@ -9,8 +9,8 @@
   "keywords": [],
   "author": "",
   "engines": {
-    "node": "20.17.0"
-  },
+  "node": "26.x"
+},
   "license": "ISC",
   "description": "",
   "dependencies": {
