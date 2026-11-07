@@ -4,7 +4,7 @@ const connectDB = require("./config/config");
 const app = express();
 const cors = require("cors");
 
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = ["http://localhost:3000", "https://dawn-estate.vercel.app"];
 //
 const corsOptions = {
   origin: function (origin, callback) {
